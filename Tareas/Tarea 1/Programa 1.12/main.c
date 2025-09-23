@@ -11,8 +11,8 @@ void main (void)
     printf("\nEl valor de i es: %d", i);
 
     ++l;
-    --k -= l++ * 2;
-    peintf("\nEl valor de k es: %d", k);
+    k -= l++ * 2;
+    printf("\nEl valor de k es: %d", k);
 
     i = 5.5 - 3 * 2 % 4;
     j = (i *2 - (k = 3, --k));
