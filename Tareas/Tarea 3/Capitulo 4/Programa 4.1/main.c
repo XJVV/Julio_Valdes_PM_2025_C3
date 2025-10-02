@@ -21,5 +21,5 @@ void main(void)
 int cubo(void) /* Declaracion de la funcion. */
 /* La funcion calcula el cubo de la variable global I. */
 {
-    return(I*I*I);
+    return (I*I*I);
 }
