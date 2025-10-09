@@ -11,7 +11,7 @@ void main(void)
     int RES, ELE, TAM, VEC[MAX];
     do
     {
-        printf("Ingrese el tamano del arreglo: ");
+        printf("Ingrese el tamano del arreglo:  ");
         scanf("%d", &TAM);
     }
     while (TAM>MAX || TAM<1); /* Se verifica que el tamaño del arreglo sea corrcto. */
@@ -24,7 +24,7 @@ void main(void)
     if (RES)
     /* Si RES tiene un valor verdadero —diferente de 0—, se escribe la
     posicion en la que se encontro el elemento. */
-        printf("\nEl elemento se encuentra en la posicion: %d", RES);
+        printf("\nEl elemento se encuentra en la posicion: %d ", RES);
 }
 
 void Lectura(int A[], int T)
@@ -35,7 +35,8 @@ elemtos de tipo entero. */
     int I;
     for (I=0; I<T; I++)
     {
-        printf("Ingrese el elemento: %d", I+1);
+        printf("Ingrese el elemento: %d ", I+1);
+        scanf("%d", &A[I]);
     }
 }
 
