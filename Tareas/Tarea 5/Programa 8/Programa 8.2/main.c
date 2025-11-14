@@ -27,7 +27,7 @@ void main(void)
     a3 = &a0; /* En este caso al apuntador de tipo estructura alumno a3
     ➥se le asigna la dirección de la variable de tipo estructura alumno, a0. */
 
-    a4 = new ('struct' alumno);
+    a4 = new (struct alumno);
     /* Nota que al apuntador a4 es necesario asignarle una dirección de memoria.
     ➥Para tener acceso a los campos de un apuntador de tipo estructura, utiliza uno
     ➥de los dos formatos siguientes:
