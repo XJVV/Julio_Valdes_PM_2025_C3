@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1763102846 source:c:\users\julio\onedrive - instituto tecnológico de las américas (itla)\documentos\itla\3er cuatrimestre\programación para mecatrónicos\prueba\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
